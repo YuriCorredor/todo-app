@@ -13,7 +13,7 @@ export default function TodoForm({ _createTodo }) {
     }
 
     return (
-        <div className='flex flex-col p-1 items-center border-[1px] rounded-md '>
+        <div className='flex flex-col p-1 items-center border-[1px] rounded-md shadow-lg'>
             <textarea
                 value={todoTitle}
                 onChange={handleChangeTodo}
