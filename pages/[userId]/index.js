@@ -3,9 +3,6 @@ import TodosLayout from '../../components/TodosLayout'
 import { getTodosFromUser, getUsers } from '../../services/api'
 
 export default function index({ todos, user }) {
-
-    console.log(user)
-
     return (
         <Layout>
             <TodosLayout todos={todos} user={user} />
