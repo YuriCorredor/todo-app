@@ -18,3 +18,24 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* width */
+.scrollbar::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+.scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+.scrollbar::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
