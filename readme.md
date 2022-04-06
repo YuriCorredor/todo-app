@@ -1,4 +1,4 @@
-<h1>Front-end Challenge EM</h1>
+<h1>Front-end Challenge</h1>
 
 <h3>Tecnologias usadas</h3>
 <ul>
@@ -44,7 +44,7 @@
 <h1>Execute localmente</h1>
 
 ```bash
-git clone https://github.com/YuriCorredor/front-end-challenge-escolamais.git
+git clone https://github.com/YuriCorredor/todo-app.git
 cd front-end-challenge-escolamais
 # instale as dependências
 npm install
